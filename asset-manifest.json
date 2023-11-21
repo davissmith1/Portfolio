@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d54af601.css",
+    "main.js": "/Portfolio/static/js/main.1c429ae2.js",
+    "static/js/787.235304f3.chunk.js": "/Portfolio/static/js/787.235304f3.chunk.js",
+    "static/media/BucknerU.png": "/Portfolio/static/media/BucknerU.e3ad4a00f25c4f18ab7d.png",
+    "static/media/CSXL_Community.png": "/Portfolio/static/media/CSXL_Community.1b10a643acbc3a360afa.png",
+    "static/media/0B37C524-97A6-4386-826E-6A56849EC0D2_1_105_c.jpeg": "/Portfolio/static/media/0B37C524-97A6-4386-826E-6A56849EC0D2_1_105_c.3fedd623f19a3cfc4947.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.d54af601.css.map": "/Portfolio/static/css/main.d54af601.css.map",
+    "main.1c429ae2.js.map": "/Portfolio/static/js/main.1c429ae2.js.map",
+    "787.235304f3.chunk.js.map": "/Portfolio/static/js/787.235304f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d54af601.css",
+    "static/js/main.1c429ae2.js"
+  ]
+}
