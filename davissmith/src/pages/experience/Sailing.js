@@ -1,8 +1,19 @@
 import React from 'react'
+import '../../styles/sailing.css'
+import TiledPicture from '../../helpers/TiledPics'
+import { sailingPics } from '../../helpers/sailingPics'
 
-function Sailing() {
+
+function Sailing() {  
+  
   return (
-    <div>Sailing</div>
+    <div className='sailing'>
+      <h1>Sailing</h1>
+      <p></p>
+      <div className='picture-container'>
+        <TiledPicture images={sailingPics} />
+      </div>
+    </div>
   )
 }
 

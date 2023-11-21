@@ -1,17 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, useLocation } from "react-router-dom";
+import '../styles/Experience.css'
+
+  
 
 function Experience() {
+  const[isHovered, setIsHovered] = React.useState(false)
+  
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+    //?document.body.classList.add('hovered-link-backgorund');
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    document.body.classList.remove('hovered-link-background');
+  };
+
   return (
-    <div>Experience
-      <div className='links'>
-                <Link to="/experience/software">Software Devlopment</Link>
-                <Link to="/experience/photography">Photography</Link>
-                <Link to="/experience/sailing">Sailing</Link>
-            </div>
+    <div>
+      <div className='experiences'>
+        <h1>Software Devlopment</h1>
+        <div className='picture-container'>
+      </div>
+      </div>
     </div>
     
-  )
+  );
 }
 
 export default Experience
