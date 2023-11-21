@@ -9,9 +9,15 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <LinkedIn />
-        <GitHub />
-        <Email />
+        <a href={'https://www.linkedin.com/in/davis-h-smith/'} target="_blank" rel="noopener noreferrer">
+          <LinkedIn />
+        </a>
+        <a href={'https://github.com/davissmith1'} target="_blank" rel="noopener noreferrer">
+          <GitHub />
+        </a>
+        <a href={`mailto:${'davissmi@unc.edu'}`}>
+          <Email />
+        </a>
       </div>
       <p>© 2023 - All Rights Reserved</p>
     </div>
