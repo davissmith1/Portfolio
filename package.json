@@ -5,5 +5,8 @@
     "@mui/icons-material": "^5.14.11",
     "@mui/material": "^5.14.11",
     "react-router-dom": "^6.16.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
