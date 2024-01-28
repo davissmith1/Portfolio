@@ -16,7 +16,14 @@ function ProjectDisplay() {
         <p>
             <b>Skills:</b> {project.skills}
         </p>
-        <GitHub />
+        {project.gitFlag && 
+            <a href={'https://github.com/davissmith1/Plannr2.0'} target="_blank" rel="noopener noreferrer">
+            <GitHub />
+          </a>
+        }
+        
+    
+       
     </div>
   )
 }

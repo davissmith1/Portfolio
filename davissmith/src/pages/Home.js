@@ -9,28 +9,41 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-      <h2>Hi, I'm Davis</h2>
-      <p>I am a software developer, among others things</p>
+        <h2>Hi, I'm Davis</h2>
+        <h3>I am a software developer, among others things</h3>
       </div>
       <div className='skills'>
-        <ol className='list'>
-          <li className='item'>
-            <h2>Frontend</h2>
-            <span>
-              ReactJS, AngularJS, HTML, CSS, JavaScript, MaterialUI
-            </span>
-          </li>
-          <li className='item'>
-            <h2>Backend</h2>
-          <span>NodeJS, ExpressJS, FastAPI, MySQL, PostgresSQL</span>
-          </li>
-          <li className='item'>
-            <h2>Languages</h2>
-          <span>Java, Python, C, JavaScript, TypeScript,</span>
-          </li>
-        </ol>
+        <div className='frontend'>
+          <h2>Frontend</h2>
+          <p>
+            ReactJS
+            AngularJS
+            HTML
+            CSS
+            JavaScript
+          </p>
+        </div>
+        <div className='backend'>
+          <h2>Backend</h2>
+          <p>
+            NodeJS
+            ExpressJS
+            MySQL
+            PostgreSQL
+          </p>
+        </div>
+        <div className='languages'>
+          <h2>Languages</h2>
+          <p>
+            JavaScript
+            TypeScript
+            Python
+            Java
+            C
+          </p>
+        </div>
       </div>
-    </div> 
+    </div>
   )
 }
 

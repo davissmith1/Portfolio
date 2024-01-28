@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import '../styles/Navbar.css'
 import ReorderIcon from '@mui/icons-material/Reorder';
 
@@ -23,11 +23,11 @@ function Navbar() {
                     <ReorderIcon />
                 </button>
             </div>
-            <div className='links'>
-                <Link to="/"> Home </Link>
-                <Link to="/about"> About </Link>
-                {/* <Link to="/experience"> Experience </Link> */}
-                <Link to="/projects"> Projects </Link>
+                <div className='links'>
+                <NavLink exact to="/" activeClassName="active-link"> Home </NavLink>
+                {/* <NavLink to="/experience" activeClassName="active-link"> Experience </NavLink> */}
+                <NavLink to="/projects" activeClassName="active-link"> Projects </NavLink>
+                <NavLink to="/about" activeClassName="active-link"> About </NavLink>
             </div>
         </div>
     )

@@ -19,7 +19,6 @@ function Footer() {
           <Email />
         </a>
       </div>
-      <p>© 2023 - All Rights Reserved</p>
     </div>
   );
 }
