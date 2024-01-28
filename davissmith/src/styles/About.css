@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto; /* This makes sure that .about takes the full height of the viewport */
+}
+
+.about-content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h1{
+    color: var(--Text-1, #35BEC6);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.about p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}

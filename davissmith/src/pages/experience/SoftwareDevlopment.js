@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/software.css'
+//todo import '../../styles/software.css'
 
 function SoftwareDevlopment() {
   return (

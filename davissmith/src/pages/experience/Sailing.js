@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/sailing.css'
+//todo import '../../styles/sailing.css'
 import TiledPicture from '../../helpers/TiledPics'
 import { sailingPics } from '../../helpers/sailingPics'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/photography.css'
+//todo import '../../styles/photography.css'
 
 function Photography() {
   return (
